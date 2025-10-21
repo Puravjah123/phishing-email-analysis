@@ -1,0 +1,95 @@
+# Report of Phishing email analysis 
+
+
+**Email 1: Solar Panels Phishing (Zonnepanelen)**
+
+      Header Analysis:
+      Received from: dturm.de (57.128.69.202) - Suspicious German domain
+      
+      Sender: zonnepaneel@appjj.serenitepure.fr - French domain, not related to solar companies
+      
+      Reply-To: news@aichakandisha.com - Different domain than sender (common phishing tactic)
+      
+      Content Analysis:
+      Subject: "Zonnepanelen voor een goede prijs" (Solar panels for a good price)
+      
+      Language: Dutch, targeting Netherlands audience
+      
+      Tracking Link: http://go.nltrck.com/?c=495&source=consumentenbond&s1=&lp=1190
+      
+      Social Engineering: Creates urgency about electricity bills and inflation
+      
+      Phishing Indicators Found:
+       Suspicious Sender Domain: appjj.serenitepure.fr - Not a legitimate solar company
+      
+       Tracking Domain: nltrck.com - URL shortener/tracking service
+      
+       Different Reply-To Address: aichakandisha.com doesn't match sender domain
+      
+       Emotional Manipulation: Plays on fears of high energy bills and inflation
+      
+       Call to Action Pressure: "Wacht daarom niet langer" (Don't wait any longer)
+
+**Email 2: Microsoft Account Phishing**
+
+    Header Analysis:
+    Received from: thcultarfdes.co.uk (89.144.44.2) - UK domain, suspicious name
+    
+    Sender: no-reply@access-accsecurity.com - Fake Microsoft domain
+    
+    Reply-To: sotrecognizd@gmail.com - Gmail address for a "Microsoft" email
+    
+    Content Analysis:
+    Subject: "Microsoft account unusual signin activity"
+    
+    Fake Security Alert: Claims login from Russia/Moscow
+    
+    IP Address: 103.225.77.255 - Likely fake
+    
+    Malicious Link: Hidden tracking pixel http://thebandalisty.com/track/...
+    
+    Phishing Indicators Found:
+     Spoofed Microsoft Domain: access-accsecurity.com - Not microsoft.com
+    
+     Personal Gmail Reply-To: sotrecognizd@gmail.com for "Microsoft support"
+    
+     Fake Security Alert: Creates false urgency about account compromise
+    
+     Hidden Tracking Pixel: From thebandalisty.com - malicious domain
+    
+     Geographic Fear: Uses "Russia/Moscow" to create security concern
+    
+     Poor Grammar: "Sign.in activity" with unusual punctuation
+
+**Email 3: Bradesco Bank Phishing (Portuguese)**
+
+    Header Analysis:
+    Received from: ubuntu-s-1vcpu-1gb-35gb-intel-sfo3-06 - Suspicious server name
+    
+    Sender: banco.bradesco@atendimento.com.br - Fake bank domain
+    
+    SPF Failure: spf=temperror - Email authentication failed
+    
+    Content Analysis:
+    Subject: "CLIENTE PRIME - BRADESCO LIVELO: Seu cartão tem 92.990 pontos LIVELO expirando hoje!" (Your card has 92,990 points expiring today!)
+    
+    Language: Portuguese, targeting Brazilian audience
+    
+    Points Expiration: Creates false urgency
+    
+    Malicious Link: https://blog1seguimentmydomaine2bra.me/ - Fake domain
+    
+    Phishing Indicators Found:
+     Fake Bank Domain: atendimento.com.br - Not bradesco.com.br
+    
+     Points Expiration Scam: Fake urgency about points expiring
+    
+     Suspicious Redirect Domain: blog1seguimentmydomaine2bra.me
+    
+     SPF Authentication Failure: Email failed sender verification
+    
+     Urgent Language: "expirando hoje!" (expiring today!)
+    
+     Too Good to Be True: 92,990 points with immediate expiration
+    
+    
